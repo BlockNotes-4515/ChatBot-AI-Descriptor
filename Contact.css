@@ -1,0 +1,9 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+body {
+  background-image: url('annie.jpg');
+  background-size: cover; /* or contain, or specific dimensions */
+  background-repeat: no-repeat; /* if you don't want the image to repeat */
+  /* Other background properties can be added here */
+}
