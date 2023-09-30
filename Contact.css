@@ -1,9 +1,22 @@
-.u-section-1 .u-sheet-1 {
+.u-section-1 .u-sheet-1 
+{
   min-height: 400px;
 }
-body {
+body 
+{
   background-image: url('annie.jpg');
   background-size: cover; /* or contain, or specific dimensions */
   background-repeat: no-repeat; /* if you don't want the image to repeat */
   /* Other background properties can be added here */
+}
+.loop-text {
+  animation: loop 5s infinite; /* Create a loop animation */
+}
+@keyframes loop {
+  0%, 100% {
+    opacity: 0; /* Start and end with the text hidden */
+  }
+  50% {
+    opacity: 1; /* Show the text in the middle of the animation */
+  }
 }
